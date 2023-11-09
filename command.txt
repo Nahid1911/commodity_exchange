@@ -1,0 +1,4 @@
+Install Rails: rails new .
+Install TailwindCSS: gem "tailwindcss-rails"
+                     bundle Install
+                     rails tailwindcss:install
