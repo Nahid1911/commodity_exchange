@@ -5,4 +5,9 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     get home_index_url
     assert_response :success
   end
+
+  test "should get show" do
+    get home_show_url
+    assert_response :success
+  end
 end

@@ -1,22 +1,7 @@
 <div id="<%= dom_id user %>">
   <p class="my-5">
-    <strong class="block font-medium mb-1">User name:</strong>
-    <%= user.user_name %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">User nid:</strong>
-    <%= user.user_nid %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">User mobile:</strong>
-    <%= user.user_mobile %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">User photo:</strong>
-    <%= user.user_photo %>
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= user.name %>
   </p>
 
   <% if action_name != "show" %>
